@@ -40,6 +40,7 @@ classify different messages more efficiently. This is where a project like this 
 * Natural Language Process Libraries: NLTK
     * NLTK specific libraries: punkt, wordnet, averaged_perceptron_tagger
 * SQLlite Database Libraqries: SQLalchemy
+    * You may also need to get SQLlite related driver files.
 * Web App and Data Visualization: Flask, Plotly
 
 <a name="installing"></a>
