@@ -119,11 +119,11 @@ def multioutput_fscore(y_true, y_pred, beta=1):
 
 
 # load data
-engine = create_engine('sqlite:///data/DisasterResponse_Processed.db')
+engine = create_engine('sqlite:///data/DisasterResponse.db')
 df = pd.read_sql_table('message_categories', engine)
 
 # load model
-model = joblib.load("models/model.p")
+model = joblib.load("models/classifier.pkl")
 
 
 # index webpage displays cool visuals and receives user input text for model
