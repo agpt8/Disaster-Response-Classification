@@ -92,6 +92,10 @@ pip install scikit-learn=0.19 numpy pandas flask plotly nltk scipy sqlalchemy
 
 2. Run the following command to start the web app.
     `python app/run.py`
+    
+    * If during running the app, if you run into error saying model not found in `joblib.load(model/classifier.pkl
+    )`, try using absolute path of the model here. Python some times fail to use relative paths. Also, if the
+     absolute path has backslash `"\"`, don't forget to escape it (`\\`). 
 
 3. Go to http://127.0.0.1:3001/
 
