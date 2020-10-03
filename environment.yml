@@ -59,5 +59,4 @@ dependencies:
       - prometheus-client==0.8.0
       - pyparsing==2.4.7
       - pywin32==227
-prefix: C:\Users\ayush\anaconda3\envs\DisasterResponseClassification
 
